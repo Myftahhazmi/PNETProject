@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;   
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: visible;
+}
+
+a {
+    text-decoration: none !important;
+ }
+
+/* login */
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.login-box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.login {
+    width: 65%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    flex-direction: column;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    background-image: url('../img/pmetlogo.png');
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.input-field {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    border-radius: 15px;
+    border: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-radius: 15px;
+    background-color: rgb(15, 136, 248);
+    color: azure;
+    justify-content: center;
+}
+
+.back-arrow {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    font-size: 60px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.angleLeft {
+    color: #ffffff;
+}
+
+.fa-circle-arrow-left {
+    color: #ffffff;
+}
+
+/* menu page */
+.mainpage-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgba(0, 0, 0, .6);
+    flex-direction: column;
+    overflow: auto;
+}
+
+.top-bar {
+    /* height: 8%;
+    width: 100%;
+    background-color: rgb(27, 185, 177);
+    display: flex;
+    top: 0;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between; */
+
+    background-color: #00b1a9;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    position: sticky; 
+    top: 0;
+    z-index: 999!important;
+}
+
+.main-page-logo {
+    background-image: url('../img/pmetlogo.png');
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    margin-left: 10px;
+    
+}
+
+.main-page-title {
+    /* width: 80%;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center; */
+
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-align: center; 
+    flex-grow: 1; 
+}
+
+.main-page-info {
+    background-image: url('../img/infologo.png');
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+
+.main-title {
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+}
+
+.label-main{
+    color: rgba(255, 255, 255, 1);
+    margin-left:  80px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container-main {
+    display: flex;
+    width: 90%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    margin-left: 80px;
+    flex-direction: row;
+}
+
+.buttons-container {
+    width: 10%;
+    height: 100%;
+    background-color: #ffffff00;
+    margin: auto 5px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+.image-contain {
+    display: flex;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.image2-contain {
+    display: flex;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    text-wrap: wrap;
+    color: #ffffff;
+}
+
+.images {
+    width: 70px;
+    height: 60px;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.green-images {
+    width: 100px;
+    height: 100px;
+}
+
+/* settings */
+
+.main-container { 
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.settings-box {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.noti-button {
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.noti-button:hover {
+    background-color: rgba(0, 0, 0, .4);
+    transition: 0.5s;
+}
+
+.bell {
+    color: #ff0505;
+}
+
+.green-icon {
+    color: green;
+}
+
+/* Percipitations */
+
+.fit-image {
+    max-width: 100%;
+    max-width: 70%;
+}
+
+.over-container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.bottom-container {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-title {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.btn-row{ 
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+}
+
+.info-btn {
+    width: 300px;
+    height: 70px;
+    background: linear-gradient(to right, #004e74, #036e8a, #02849c);
+    cursor: pointer;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.navpanel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.sliding-box {
+    height: 30%;
+    width: 30%;
+    background-color: rgba(230, 230, 230);
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    transition: all 1s;
+    bottom: 0;
+}
+
+.sliding-box.close {
+    bottom: -43%;
+    position: fixed;
+    height: 50%;
+}
+
+.trigger {
+    width: 250px;
+    height: 15px;
+    background-color: rgb(75, 75, 75);
+}
+
+.sliding-btn {
+    width: 500px;
+    height: 60px;
+    background: linear-gradient(to right, #004e74, #036e8a, #02849c);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 5px -10px;
+}
