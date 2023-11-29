@@ -368,3 +368,51 @@ p {
     font-size: 25px;
     margin: 5px -10px;
 }
+
+.over-container-warning {
+    width: 100%;
+    height: 50%;
+}
+
+.top-button {
+    width: 100%;
+    height: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.top-display {
+    width: 100%;
+    height: 70%;
+    background-color: #00743a;   
+}
+
+.warning-button {
+    width: 200px;
+    height: 50px;
+    margin: 0 15px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    font-size: medium;
+    font-weight: bold;
+}
+
+.green {
+    background: #00b1a9;
+  }
+  
+  .red {
+    background: #da0e17;
+  }
+  
+  .yellow {
+    background: #d39600;
+  }
+
+  .warning-button:hover {
+    cursor: pointer;
+    background: rgb(143, 143, 143);
+    box-shadow: 0.3 ease;
+  }

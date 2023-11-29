@@ -154,6 +154,15 @@
                         </div>
                         <p>ASMC (HAZE)</p>
                 </div>
+
+                <div class="buttons-container">
+                        <div class="image2-contain">
+                            <a href="openweatherapi.php" target="_blank">
+                                <img src="img/weather.png" alt="" class="images">
+                            </a>
+                        </div>
+                        <p>Open weather API</p>
+                </div>
             </div>
 
             <h2 class="label-main">
