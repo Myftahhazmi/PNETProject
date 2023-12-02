@@ -20,7 +20,7 @@
         <div class="main-container">
             <div class="over-container-warning">
                 <div class="top-button">
-                    <button class="warning-button green">
+                    <button class="warning-button green" id = "squall-btn">
                         SQUALL/ <br>THUNDERSTORM
                     </button>
                     <button class="warning-button red">
@@ -43,17 +43,14 @@
                     
                 </div> 
                 
+                <div class="warning">
+
+                </div>
             </div>
         </div>
     </div>
 </body>
 
-<div>
-    <!-- Slider -->
-    <script src="js/Wave_Button.js"></script>
+<script src="js/Warning_Squall.js"></script>
 
-    Button
-    <script src="js/Silder_Trigger.js"></script>
-    
-</div>
 </html>
