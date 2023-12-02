@@ -1,3 +1,14 @@
+
+<?php
+//  Check Login user
+session_start();
+if(!isset($session ["username"])) {
+    header("Location:index.php");
+    exit();
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,12 +31,12 @@
             </h2>
 
             <div class="container-main">
-                <div class="buttons-container">
+                <!-- <div class="buttons-container">
                     <div class="image-contain">
                         <img src="img/icon2.png" alt="">
                     </div>
                     <p>WARNING</p>
-                </div>
+                </div> -->
 
                 <div class="buttons-container">
                     <div class="image-contain">

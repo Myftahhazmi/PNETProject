@@ -23,29 +23,23 @@
                     <button class="warning-button green" id = "squall-btn">
                         SQUALL/ <br>THUNDERSTORM
                     </button>
-                    <button class="warning-button red">
+                    <button class="warning-button red" id="wave-btn">
                         HIGH WAVE
                     </button>
-                    <button class="warning-button yellow">
-                        DATE/TIME
+                    <button class="warning-button yellow" id="cyclone-btn">
+                        TYPHOON/ <br> TROPICAL CYCLONE
                     </button>
                 </div>
 
                 <div class="top-display">
 
+                
                 </div>
             </div>
 
             <div class="bottom-container">
 
             <!-- Testing -->
-                <div class="weather-data">
-                    
-                </div> 
-                
-                <div class="warning">
-
-                </div>
             </div>
         </div>
     </div>

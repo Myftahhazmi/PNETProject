@@ -1,3 +1,14 @@
+
+<?php
+//  Check Login user
+session_start();
+if(!isset($session ["username"])) {
+    header("Location:index.php");
+    exit();
+}
+
+?>
+
 <?php
 // Database credentials
 $dbHost = "localhost";
